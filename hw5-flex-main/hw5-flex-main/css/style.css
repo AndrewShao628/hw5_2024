@@ -1,0 +1,35 @@
+/* #1 */
+@keyframes logoAnimation {
+    0% {
+        width: 25px;
+        opacity: 0;
+    }
+    100% {
+        width: 475px;
+        opacity: 1;
+    }
+}
+
+#logo {
+    opacity: 0;
+    animation: logoAnimation 5s forwards;
+}
+/* #2 */
+body {
+    font-family: 'Poppins', serif;
+    background-image: url('../images/concrete_seamless.png');
+    background-color: #f1f1f1; /* Backup color */
+}
+/* #3 */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* #4 */
+.nav_links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* #5 */
