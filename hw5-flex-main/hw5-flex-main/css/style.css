@@ -33,3 +33,6 @@ header {
     flex-direction: column;
 }
 /* #5 */
+.nav_item a:visited{
+    color: #50C7C7;
+}
