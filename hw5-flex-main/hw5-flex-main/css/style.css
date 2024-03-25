@@ -111,14 +111,14 @@ header {
 }
 
 /* #14 */
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion) {
     #logo {
         opacity: 1;
         animation: none;
     }
 }
 
-@media print {
+@media print and (orientation: portrait) {
     /* #15 */
     body {
         font-family: Arial, Helvetica;
